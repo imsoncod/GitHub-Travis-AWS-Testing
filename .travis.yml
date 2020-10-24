@@ -38,8 +38,9 @@ deploy: # ¹èÆ÷
     on:
       repo: imsoncod/GitHub-Travis-AWS-Testing
       branch: master
+      
+after_deploy:
+  - node app.js      
 
 notifications:
-  email:
-    recipients:
-      - iustron@kakao.com
+  slack: natabee:Sbu35bIv5GiqAJiEeoRiyxSR
