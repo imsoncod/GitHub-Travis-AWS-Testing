@@ -38,9 +38,6 @@ deploy: # ¹èÆ÷
     on:
       repo: imsoncod/GitHub-Travis-AWS-Testing
       branch: master
-      
-after_deploy:
-  - node app.js      
 
 notifications:
   slack: natabee:Sbu35bIv5GiqAJiEeoRiyxSR
