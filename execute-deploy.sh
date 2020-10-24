@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd /home/ec2-user/deploy
+cd /home/ec2-user
 
-node app.js
-
-exit 0
+./deploy.sh > /dev/null 2> /dev/null < /dev/null &
