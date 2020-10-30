@@ -5,10 +5,6 @@
 var express = require('express');
 var router = express.Router();
 const request = require('request');
-const cheerio = require("cheerio");
-const axios = require("axios");
-const Iconv = require('iconv').Iconv;
-const iconv = new Iconv('CP949', 'utf-8//translit//ignore');
 
 /*
 
