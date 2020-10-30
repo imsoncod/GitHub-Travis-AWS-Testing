@@ -2,6 +2,6 @@
 
 cd /home/ec2-user/deploy
 
-npm install
+/home/ec2-user/.nvm/versions/node/v15.0.1/bin/npm install
 
-pm2 start app.js
+/home/ec2-user/.nvm/versions/node/v15.0.1/bin/pm2 start app.js
