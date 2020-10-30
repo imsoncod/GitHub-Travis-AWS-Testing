@@ -2,9 +2,9 @@
 
 cd /home/ec2-user/deploy
 
-mv /home/ec2-user/deploy/* /home/ec2-user
+mv -f /home/ec2-user/deploy/* /home/ec2-user
 
-cd
+cd /home/ec2-user
 
 npm install
 
