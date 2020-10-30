@@ -4,7 +4,7 @@
   "description": "NodejsTest",
   "main": "hello-world-server.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "pm2 start app.js",
     "test": "exit"
   },
   "repository": "",

@@ -2,6 +2,4 @@
 
 cd /home/ec2-user/deploy/
 
-npm install
-
-node app.js
+pm2 start app.js
