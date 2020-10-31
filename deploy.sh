@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 cd /home/ubuntu/deploy
 
 npm install
