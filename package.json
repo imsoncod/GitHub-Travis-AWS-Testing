@@ -7,7 +7,10 @@
     "start": "pm2 start app.js",
     "test": "exit"
   },
-  "repository": "",
+  "repository": {
+		"type": "git",
+		"url": "git://github.com/imsoncod/GitHub-Travis-AWS-Testing.git"
+  },
   "keywords": [
     "node.js",
     "eclipse",
